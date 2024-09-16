@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "clusterName": {
+        "value": "clusternametest"
+      },
+      "clusterDNSPrefix": {
+        "value": "testClusterDNs"
+      },
+      "k8Version": {
+        "value": "1.26.3"
+      },
+      "sshPubKey": {
+        "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDeoqW+bgj15yWTCHS0l9rqyk7VHaMdpDzWi2YMmDl51sdGWcdMJsVb2mU+dXNjR2zpvYFW6WtVO+Q/9ZlnF95kaDiIR4z4Jz/FQNfA0gPjkXoyv3ohz0qhfUkXWApmlGaJl6csblLhJPJgeNCrxHujquZudxl4TZLBmEg9T8joXKVzJIBDJLVoHFd+nyY5HLPmv9m+E1fw+l/0x5xyrUY61m6+Ynp/JurOY+fKXFQpSfxvT/AK2LQvdWjnd5a0fB73r2llmCxJfsuLfXH3BERREiWsCT1jG0uF4kGkivKhjylvEbo9Q1ynGECL3fraWsUqjA011RehhDwX+XrvYHwH olukorede fawemimo@Anommynous"
+      },
+      "location": {
+        "value": "Uksouth"
+      },
+      "adminUsername": {
+        "value": "kuberclustertest"
+      }
+    }
+  }
